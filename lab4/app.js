@@ -6,7 +6,7 @@ const zlib = require('zlib');
 const app = express();
 const port = 3000;
 
-const fullName = "Прізвище Ім'я По-батькові"; // Замініть це на ваше прізвище, ім'я та по-батькові
+const fullName = "Трифонова Ксенія Олександрівна";
 
 // Middleware для запису даних про запити
 app.use((req, res, next) => {
