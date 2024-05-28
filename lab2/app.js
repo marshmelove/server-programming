@@ -10,7 +10,7 @@ async function createFileFunc() {
         console.log('CREATE operation failed: File already exists');
     } catch (error) {
         try {
-            await fs.promises.writeFile(filePath, 'Свіжий і бадьорий');
+            await fs.promises.writeFile(filePath, 'Свіжий та бадьорий');
             console.log('File created successfully');
         } catch (error) {
             console.log('CREATE operation failed:', error.message);
