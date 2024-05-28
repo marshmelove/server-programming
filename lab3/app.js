@@ -11,7 +11,7 @@ const server = http.createServer((req, res) => {
     switch (pathname) {
         case '/':
             res.writeHead(200, { 'Content-Type': 'text/html' });
-            const fullName = 'ПІБ'; // замініть 'ПІБ' на своє прізвище, ім'я та по-батькові
+            const fullName = 'Трифонова Ксенія Олександрівна';
             res.end(`<h1>Сервер на Node.js ${fullName}</h1>`);
             break;
         case '/about':
